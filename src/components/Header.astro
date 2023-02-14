@@ -1,0 +1,21 @@
+--- 
+import Navigation from './Navigation.astro';
+import Hamburger from './Hamburger.astro';
+
+const platform = "insta";
+const username = "withastro";
+---
+<style>
+  footer {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+</style>
+
+<header>
+  <nav>
+    <Hamburger />
+    <Navigation />
+  </nav>
+</header>
